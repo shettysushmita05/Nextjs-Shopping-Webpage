@@ -6,7 +6,7 @@ import { setProducts, applyFilters } from '@/store/productSlice'
 import { addToCart } from '@/store/cartSlice'
 import { Button } from '@/components/ui/button'
 
-export default function Home() {
+export default function StorePage() {
   const dispatch = useAppDispatch()
   const { filteredProducts } = useAppSelector(state => state.product)
 
